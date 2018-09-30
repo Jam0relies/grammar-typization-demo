@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "target": "ES6",
+        "noImplicitAny": true,
+        "removeComments": true,
+        "preserveConstEnums": true,
+        "out": "output/project.js",
+        "sourceMap": true
+    },
+    "exclude": [
+        "output",
+    ]
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Класссификация грамматик</title>
+    <script async src="output/project.js"></script>
+</head>
+
+<body>
+    <div>
+        <div>Множество нетерминальных символов</div>
+        <textarea id="nonterminals"></textarea>
+    </div>
+    <div>
+        <div>Множество терминальных символов</div>
+        <textarea id="terminals"></textarea>
+    </div>
+    <div>
+        <div>Начальный символ</div>
+        <input id="startSymbol">
+    </div>
+    <div>
+        <div>Символ пустой цепочки</div>
+        <input id="emptyChainSymbol" value="&#949;">
+    </div>
+    <div>
+        <div>Правила вывода</div>
+        <textarea title="Правила вывода" id="rules"></textarea></div>
+    <div><button>Проверить</button></div>
+    <div>
+        <div id="result"></div>
+    </div>
+</body>
